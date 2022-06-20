@@ -1,0 +1,64 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* Var color */
+:root {
+  --primary-color: hsl(250, 95%, 65%);
+  --color-dark: hsl(252, 30%, 17%);
+  --color-light: hsl(252, 30%, 100%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-light);
+  background: var(--color-light);
+  overflow-x: hidden;
+}
+
+/* main */
+.navbar {
+  display: flex;
+  top: 0;
+  align-items: center;
+  position: fixed;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  width: 100%;
+  background: transparent;
+}
+
+.navbar .logo img {
+  width: 7.7rem;
+  height: 2rem;
+}
+
+.navbar .ls-nav {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.jumbo-fluid {
+  width: 100vw;
+  z-index: -1;
+}
+
+.jumbotron {
+  background: url("./image/1538781.jpg") no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
